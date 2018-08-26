@@ -1,11 +1,10 @@
-# Lab-3
-## String Processing
+# String Processing
 
-This is the third lab for COMP 167 Computer Program Design at North Carolina A&T State University.
+### This is a for COMP 167 Computer Program Design at North Carolina A&T State University.
 
-Instructor: Dr. Kelvin Bryant - ksbryant@ncat.edu
+### Instructor: Dr. Kelvin Bryant - ksbryant@ncat.edu
 
-### Lab Description
+## Lab Description
 
 This lab will give you practice using many of the Java String library functions. You are required to parse and validate input records from a text file. The name of the input file will be passed to your program using command line arguments. Each line of input will contain a single record containing:
 
@@ -36,12 +35,14 @@ to validate each field. The method that validates the first name can also be use
 4. After all the input has been processed, output the valid input stored in the 1d array to the
 console. This output should have neatly aligned columns.
 
-### Grading Description
+## Grading Description
 - **Level 1 (10 pts):** Your program should obtain the filename from the command line argument, use the split function to parse the input, then store the input fields into a formatted string and store each string into the 1D array. Finally, output the array to the console.
 - **Level 2 (15 pts):** Complete level 1 and validate the Firstname, Lastname and Gender fields. If errors are found, output the errors but do not store records with errors in the array.
 - **Level 3 (20 pts):** Validate all fields.
 
-### Hint
+You should commit and push after completing _each level_. You should also call over a TA to check your work as you complete each level.
+
+## Hint
 
 String output = String.format("%-20s%-20s%-10s%10d", "William", "Bryant", "Male", 22 ); String sFirstname = “Helen”;
 
